@@ -5,7 +5,6 @@ El proceso termina cuando el usuario acierta o cuando se rinde (introduciendo un
 """
 import random
 guessnumber = random.randint(0, 100)
-print("Random number:", str(guessnumber))
 userNum = 0
 while userNum!=-1 and userNum!=guessnumber:
     userNum = int(input("Guess number: "))
